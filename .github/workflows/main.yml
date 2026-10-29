@@ -1,0 +1,38 @@
+name: Build mod
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+  workflow_dispatch:   # reczne uruchomienie z zakladki Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pobierz kod
+        uses: actions/checkout@v4
+
+      - name: Ustaw JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      # Instaluje Gradle 8.12, wiec nie potrzeba plikow gradlew w repozytorium
+      - name: Ustaw Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.12
+
+      - name: Zbuduj mod
+        run: gradle build
+
+      - name: Wyslij .jar jako artefakt
+        uses: actions/upload-artifact@v4
+        with:
+          name: novambot
+          path: |
+            build/libs/*.jar
+            !build/libs/*-sources.jar
