@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "botmod",
+  "version": "${version}",
+  "name": "Bot Panel",
+  "description": "Klienckie menu GUI do konfiguracji i uruchamiania komend 'bota'.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.botmod.BotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

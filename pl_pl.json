@@ -1,0 +1,22 @@
+{
+  "key.botmod.open": "Otwórz panel bota",
+  "key.category.botmod": "Bot Panel",
+  "gui.botmod.title": "Panel Bota",
+  "gui.botmod.nick": "Nick Bota",
+  "gui.botmod.command": "Komenda za bota",
+  "gui.botmod.nick.placeholder": "np. Bot_01",
+  "gui.botmod.command.placeholder": "np. /home albo wiadomość",
+  "gui.botmod.mode": "Tryb: %s",
+  "gui.botmod.mode.gui": "GUI Bota",
+  "gui.botmod.mode.screen": "Ekran Bota",
+  "gui.botmod.mode.server": "Serwer Bota",
+  "gui.botmod.start": "Zatwierdź / Uruchom bota",
+  "gui.botmod.cancel": "Anuluj",
+  "gui.botmod.error.nick": "Nick: 3-16 znaków (litery, cyfry, _).",
+  "gui.botmod.error.command": "Komenda nie może być pusta.",
+  "gui.botmod.error.world": "Musisz być w świecie/na serwerze.",
+  "gui.botmod.confirm.title": "Uruchomić bota?",
+  "gui.botmod.confirm.text": "Bot %s wykona: %s",
+  "gui.botmod.screen.msg": "[%s] wykonuje: %s",
+  "gui.botmod.server.msg": "[%s] komenda wysłana na serwer: %s"
+}

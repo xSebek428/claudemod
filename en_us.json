@@ -1,0 +1,22 @@
+{
+  "key.botmod.open": "Open bot panel",
+  "key.category.botmod": "Bot Panel",
+  "gui.botmod.title": "Bot Panel",
+  "gui.botmod.nick": "Bot nickname",
+  "gui.botmod.command": "Bot command",
+  "gui.botmod.nick.placeholder": "e.g. Bot_01",
+  "gui.botmod.command.placeholder": "e.g. /home or a message",
+  "gui.botmod.mode": "Mode: %s",
+  "gui.botmod.mode.gui": "Bot GUI",
+  "gui.botmod.mode.screen": "Bot Screen",
+  "gui.botmod.mode.server": "Bot Server",
+  "gui.botmod.start": "Confirm / Run bot",
+  "gui.botmod.cancel": "Cancel",
+  "gui.botmod.error.nick": "Nick: 3-16 chars (letters, digits, _).",
+  "gui.botmod.error.command": "Command cannot be empty.",
+  "gui.botmod.error.world": "You must be in a world/server.",
+  "gui.botmod.confirm.title": "Run the bot?",
+  "gui.botmod.confirm.text": "Bot %s will run: %s",
+  "gui.botmod.screen.msg": "[%s] runs: %s",
+  "gui.botmod.server.msg": "[%s] command sent to server: %s"
+}
